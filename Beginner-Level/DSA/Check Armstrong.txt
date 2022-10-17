@@ -1,0 +1,16 @@
+#Check whether the number is armstrong or not.
+Input: N
+Output: True or False
+
+#Example:
+Input: 153
+Output: True
+
+Input: 371
+Output: True
+
+Input: 167
+Oupput: False
+
+// Enter your code here.
+
