@@ -1,0 +1,176 @@
+/* Body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title Section */
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 56%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 30%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* Features Section */
+.features {
+  margin: 50px auto;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 2%;
+}
+
+.features-description {
+  color: #8f8f8f;
+  font-family: "Ubuntu";
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.feature-logo {
+  color: #ef8172;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.feature-logo:hover {
+  color: #ff4c68;
+}
+
+/* testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+.card-body {
+  font-family: "Montserrat-light";
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 0 px;
+  padding-bottom: opx;
+}
+
+p {
+  font-style: "ubuntu";
+  font-size: 14px;
+}
+
+/* Footer Section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.message {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.fbtn {
+  margin: 20px 10px 30px;
+}
+
+/* Copyright Section */
+#footer {
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.Copyright {
+  color: #8f8f8f;
+  font-family: "ubuntu";
+  font-size: 12px;
+}
+
+.ficon {
+  padding: 0 10px 10px;
+}
+
+/* Media Section (for responsiveness in mobile ) */
+@media (max-width : 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    position: relative;
+    left: 0%;
+  }
+}
