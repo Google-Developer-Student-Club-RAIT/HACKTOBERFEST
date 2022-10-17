@@ -1,9 +1,0 @@
-Find the nth term of Harmonic Progression:
-Input: A, D(Common difference), N
-Output: Nth term
-
-#Example:
-Input: A=2, D=4, N=5
-Output: 0.055 (Approx)
-
-// Enter your code here.
