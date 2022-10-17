@@ -14,7 +14,6 @@ Hacktoberfest-2022
 P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 Hacktoberfest 2022
-![Event Completed](/scripts/Event_Completed_.png)
 
 # 📌 Videos 📽️:
 
@@ -80,8 +79,7 @@ This will give you any eventual conflicts and allow you to easily solve them in 
 For more information on syncing forks [read this article from Github](https://help.github.com/articles/syncing-a-fork/).
 
 ## Swags of Hacktoberfest:
-- Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt s on your doorstep.
- 
+- Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull request as for 2022 you will be eligible to get a Hacktoberfest T-shirt s on your doorstep
      
 
 # FAQs (Frequently Asked Questions)
@@ -113,4 +111,5 @@ For more information on syncing forks [read this article from Github](https://he
 
 ###### *We will do our best to merge as much as possible from everyone. However, time is limited and the merge conflicts are horrible :astonished: <3*
 <br>
+
 
