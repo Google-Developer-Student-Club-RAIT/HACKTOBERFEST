@@ -1,2 +1,2 @@
 # HACKTOBERFEST
-The following is a list of repositories appropriate for hactoberfest submissions. These are maintained by active maintainers and moderators from MLSC BSIOTR and GDC JSCOE. We're eagerly awaiting your pull requests.
+Please pull requests to the following repositories during hactoberfest. These repositories are administered by GDSC RAIT active maintainers and moderators. We're excited to see your contributions!
