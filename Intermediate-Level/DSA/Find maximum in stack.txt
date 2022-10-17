@@ -1,0 +1,1 @@
+Find maximum in stack in O(1) without using additional stack
