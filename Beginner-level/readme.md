@@ -15,7 +15,7 @@ This repository is open to all members of the GitHub community. Any member may c
 https://github.com/<Your username>/HACKTOBERFEST.git
 ```
 
-* Create a branch
+* Create a branch.
 
 ```markdown
 git checkout -b branch-name
