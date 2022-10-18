@@ -14,3 +14,22 @@ Oupput: False
 
 // Enter your code here.
 
+#include <stdio.h>
+int main() {
+    int n,c,r,sum = 0;
+    printf("Enter a three-digit integer: ");
+    scanf("%d", &n);
+    c = n;
+    while (c!= 0) 
+    {
+       r = c % 10;
+       sum += r*r*r;
+       c /= 10;
+    }
+
+    if (sum == n)
+        printf("%d is an Armstrong number.", n);
+    else
+        printf("%d is not an Armstrong number.", n);
+
+    return 0;
