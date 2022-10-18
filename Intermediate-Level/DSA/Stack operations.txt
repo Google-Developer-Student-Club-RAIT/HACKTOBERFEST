@@ -2,3 +2,43 @@ Implement a menu driven program for performing following operations on
 Stack Data Structures
 a. Push
 b. Pop
+
+//push and pop in a stack using C
+
+#include<stdio.h>
+#define MAX 5
+int stack[MAX], a, n=0, top = -1;
+void push(int a)
+{
+    if(top==MAX-1)
+    {
+        printf("Stack overflow \n");
+    }    
+    else
+    top = top + 1;
+    stack[top] = a;
+    printf("element succefully pushed \n");
+}
+
+void pop()
+{
+    if(top==-1)
+    {
+        printf("stack underflow \n");
+    }
+    else
+        a = stack[top];
+        top = top - 1;
+        printf("%d was popped succesfully \n",a);
+}
+
+int main()
+{
+  int x;
+  printf("enter element to be pushed \n");
+  scanf("%d",&a);
+  push(a);
+  pop();       
+  printf("displaying stack \n");
+  return 0;
+}
