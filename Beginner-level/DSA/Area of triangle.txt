@@ -1,0 +1,14 @@
+//AREA OF TRIANGLE USING C PROGRAMMING
+#include<stdio.h>
+void main()
+{
+  float b,h,Area;
+  printf("ENTER THE BASE:");
+  scanf("%f",&b);
+  printf("ENTER THE HEIGHT");
+  scanf("%f",&h);
+  
+  Area= 0.5*b*h;
+  
+  printf("THE AREA OF THE TRIANGLE IS:%f",Area);
+}  
