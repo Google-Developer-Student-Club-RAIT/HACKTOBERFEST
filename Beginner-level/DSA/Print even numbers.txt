@@ -2,11 +2,14 @@
 #include<stdio.h>
 int main()
 {
+int n,temp,ans=0;
 printf("Enter number of digits desired:");
 scanf("&d",&n);
-printf("\nEven numbers:")
-for(n=1,n<=temp,n++)
+temp=n;
+printf("\nEven numbers:");
+for(n=1;n<=temp;n++)
 {
-printf("%d",ans);
-ans++;
+printf("%d,",ans);
+ans=ans+2;
+}
 }
