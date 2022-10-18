@@ -35,6 +35,11 @@ Hacktoberfest 2022
 ## Getting Started 🤩🤗:
 
 - Fork this repo (button on top)
+
+**FOR DSA**
+- directly edit your code in txt file only no need to clone !!
+
+**(APP AND WEB )**
 - Clone on your local machine
 
 ```terminal
@@ -51,6 +56,7 @@ cd HACKTOBERFEST
 git checkout -b <branch_name>
 ```
 
+**NOTE : IF YOU ARE UNABLE TO CLONE REPO NO ISSUES DIRECTLY UPLOAD YOUR FILE IN RESPECTIVE FOLDER AND CREATE PULL REQUESTLY NO NEED TO CLONE!!**
 
 - Create a new pull request from your forked repository
 
