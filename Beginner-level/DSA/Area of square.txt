@@ -1,0 +1,13 @@
+//AREA OF SQUARE USING C PROGRAMMING
+#include<stdio.h>
+int main()
+{
+  float a,Area;
+  printf("Enter the side:");
+  scanf("%f",&a);
+  Area=a*a;
+  printf("The Area of the square is:%f",Area);
+  return 0;
+}
+  
+  
