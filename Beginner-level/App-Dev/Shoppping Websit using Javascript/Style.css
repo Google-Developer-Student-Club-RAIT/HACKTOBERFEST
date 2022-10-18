@@ -1,0 +1,277 @@
+*{
+   margin:0;
+   padding: 0px;    
+   /*font-family: 'Balsamiq Sans', cursive;*/
+   font-family: 'Balsamiq Sans', cursive;
+font-family: 'Oswald', sans-serif;
+}
+i{
+    color:white;
+}
+.home {
+    background:url("images/back.jpg") ;
+back
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: cover;
+    backface-visibility: unset;
+    height: 100vh;
+}
+header {   
+    display: inline-block; 
+    height: 10%;
+    background-color:black;
+    width: 100%;
+margin-bottom: 0px;
+ 
+}
+header a {
+    padding-top:10px;
+    padding-bottom:10px ;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    word-spacing: 2px;
+    font-style: bold; 
+    margin-bottom: 0px;  
+}
+#name {    float: left;
+}
+#other {
+    float: right;
+
+}
+header span {
+    color:greenyellow;
+}
+.product-overView{
+  
+    opacity: 0.9;
+    background-color:white;
+width: 100%; margin-top: 0;  color:black;}
+.product-overView h1 {
+
+    
+    
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    padding:15px auto ;
+    
+}
+.product-overView .categories {
+    display: flex;
+    flex-direction: row; 
+    
+ 
+}
+.product-overView .categories figure a{
+    text-decoration:none;  
+    color: black;
+}
+.product-overView .categories figure {
+  margin:10px auto;
+  
+  
+}
+.product-overView .categories figure i{
+   margin: auto;
+    align-content: center;
+}
+.product-overView .categories figure figcaption{
+    text-align: center; 
+ font-weight: 500;
+font-size: 20px; 
+}
+
+
+.product-overView .categories figure img {
+    width: 250px;
+    height: 150px;
+}
+.warning-corona-virus {
+
+color: white;
+width: 100%;
+height: 60%;
+}
+
+.warning-corona-virus .warning-text {
+    background-color: rgb(251, 251, 251);
+
+    border-radius: 15px;
+    opacity: 0.7;
+    padding:15px;
+    float: right;
+    width: 40%;
+ font-family: 'Balsamiq Sans', cursive;
+text-align: right;
+color: black;
+right: 0;
+margin: 20px;
+}
+.warning-corona-virus .warning-text h2 {
+   letter-spacing: 2px;
+  font-size: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.warning-corona-virus .warning-text p 
+{  word-spacing: 1px;
+    letter-spacing: 1px;
+     line-height:35px;
+     font-style: italic;
+    right: 0;
+ text-align: justify; 
+  font-weight: 400;
+  font-size: x-large;
+
+}
+.p1 {
+     background:rgb(245, 245, 245);
+
+    height: 100vh;
+    width: 100%;
+   
+}
+.p1 h2 {
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-left: 3% ;
+    text-align: left;
+    font-weight: 700;
+ }
+ .p1 .products {
+     
+     display: flex;  
+     flex-wrap: wrap;
+    margin:30px auto;
+        
+ }
+ .p1 .products figure {
+     letter-spacing: 0.5px;
+     word-spacing: 1px;
+background-color:whitesmoke;
+padding: 10px;
+margin: 15px 20px;
+
+
+ }
+ .p1 .products figure img {
+     border-radius: 10px;
+     width: 200px ;
+     height: 150px;
+    } 
+
+    .p1 .products figure figcaption {
+         display: block;
+    }
+    .p1 .products figure figcaption .title{
+       
+        padding-top: 2px; padding-bottom:2px;
+        margin: 0;
+        width: 100%;
+        color:black;
+        background-color:white;
+    }
+    .p1 .products figure figcaption .price{
+        padding-top: 2px; padding-bottom:2px;
+        background-color: greenyellow;
+        width: 100%;
+    }
+    .p1 .products figure figcaption .but    {
+     background-color:  rgb(219, 215, 215);
+     border-bottom: 5px;
+    }
+    .p1 .products figure figcaption .but :hover{
+        background-color:  rgb(163, 163, 163);
+        cursor:pointer;
+    }
+/*-----------------------------------------cart page--------------------------------- */
+.product-container
+{
+    max-width: 750px;
+    margin: 0 auto;
+    justify-content: space-between;
+   
+
+} 
+.product-container i
+{
+  font-size: larger     ;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.product-header {
+    width: 100%;
+   
+    display: flex;
+align-items: cente  r;
+border-bottom:4px solid lightgrey ;
+}
+.product-title {
+    width: 45%;
+}
+ .total {
+    width: 15%;
+    border-bottom:4px solid lightgrey ; 
+    display: flex;
+    align-items: center;
+    padding: 0 auto;
+
+}
+.products{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:4px solid lightgrey ;
+ padding: 10px 0 ; 
+    align-self: center; 
+}
+.price {
+    width: 15%;    
+    padding: 0 auto;
+    border-bottom:4px solid lightgrey ; 
+    display: flex;
+    align-items: center;
+}
+.quantity {
+
+    width: 25%;
+    border-bottom:4px solid lightgrey ; 
+    display: flex;
+    align-items: center;
+}
+.product span {
+  align-self: center;
+}
+.cartImg {
+    border-radius: 10px;
+    width: 150px ;
+    height: 100px;
+}
+
+
+.basketTotalContainer{
+ display: flex;
+justify-content: flex-end;
+padding:10px auto;
+width: 100%;
+
+}
+.basketTotalTitle {
+    width: 30%;
+}
+.basketTotal{
+  width:10% 
+}

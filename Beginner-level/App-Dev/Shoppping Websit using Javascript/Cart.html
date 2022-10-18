@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+<link href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="product-container">
+       <div class="product-header">
+             <h5 class="product-title">Products in your Cart </h5>
+             <h5 class="price">Price</h5>
+             <h5 class="quantity">Quantity</h5>
+             <h5 class="total">total</h5>
+       </div>
+       <div class="products">
+
+   </div>
+</div>
+<script type="text/javascript" >
+function displayCart(){
+    let cartCost = localStorage.getItem('totalCost');
+    let cartItems = localStorage.getItem("productsInCart");
+    cartItems = JSON.parse(cartItems);
+  console.log(cartItems);
+
+  
+    let productContainer = document.querySelector(".products");
+     if(cartItems && productContainer )
+        {
+                productContainer.innerHTML='';
+              
+                Object.values(cartItems).map(item => {
+                    productContainer.innerHTML += `
+                    <div class="product">
+                       
+                   <img  class="cartImg" src="images/${item.tag}.jpg">
+                    <span> ${item.title}</span>  </div>
+               <div class="price" >${item.price}</div>
+               <div class="quantity" >
+                  
+                    <span> ${item.inCart}</span>
+               
+                    </div>
+                    <div class="total">Rs.${item.inCart * item.price}</div>
+                     `;
+                })
+                productContainer.innerHTML += `
+                <div class="basketTotalContainer">
+    <h4 class="basketTotalTitle">Basket Total</h4>
+    <h4 class="basketTotal">
+      Rs.${cartCost}.00 
+    </h4>
+</div>
+                `;
+            
+
+        } 
+ }
+ displayCart(); 
+ </script>
+ </body>
+ </html>
