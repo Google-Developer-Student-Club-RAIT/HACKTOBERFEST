@@ -48,7 +48,7 @@ cd HACKTOBERFEST
 - Create a new Branch
 
 ```markdown
-git checkout -b my-new-branch
+git checkout -b <branch_name>
 ```
 
 
