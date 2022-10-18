@@ -42,7 +42,7 @@ git clone https://github.com/Google-Developer-Student-Club-RAIT/HACKTOBERFEST.gi
 ```
 - Navigate to project directory.
 ```terminal
-cd Hacktoberfest2022
+cd HACKTOBERFEST
 ```
 
 - Create a new Branch
