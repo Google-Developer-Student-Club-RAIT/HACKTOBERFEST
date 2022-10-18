@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+  float l, b, area;
+  printf("Enter lenght of your rectangle \n");
+  scanf("%f",&l);
+  printf("Enter breadth of your rectangle \n");
+  scanf("%f",&b);
+  area = l*b;
+  printf("Area of the given rectangle is = %f",area);
+  return 0;
+}
+  
