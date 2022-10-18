@@ -19,8 +19,8 @@ temp=n;
 for(n=1;n<=temp;n++)
 {
 c=a+b;
-b=c;
 a=b;
+b=c;
 printf("%d,",c);
 }
 printf("...");
