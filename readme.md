@@ -69,7 +69,7 @@ You can verify that the new remote has been added by typing
 git remote -v
 ```
 
-To pull any new changes from your parent repo simply run
+To pull any new changes from your parent repo simply run.
 ```terminal
 git merge upstream/master
 ```
