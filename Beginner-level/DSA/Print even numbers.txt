@@ -4,7 +4,7 @@ int main()
 {
 int n,temp,ans=0;
 printf("Enter number of digits desired:");
-scanf("&d",&n);
+scanf("%d",&n);
 temp=n;
 printf("\nEven numbers:");
 for(n=1;n<=temp;n++)
