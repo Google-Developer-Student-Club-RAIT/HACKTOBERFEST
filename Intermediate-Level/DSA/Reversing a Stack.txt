@@ -1,1 +1,11 @@
 Reversing a Stack with the help of another empty Stack
+#Python
+def reverse(stack):
+    new_stack = Stack()
+    while not stack.is_empty():
+        new_stack.push(stack.pop())
+    stack = new_stack
+   
+
+stack = [1,2,3,5,6]
+print(reverse(stack))
