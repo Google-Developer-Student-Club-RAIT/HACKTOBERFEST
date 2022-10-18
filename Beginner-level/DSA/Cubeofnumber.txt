@@ -1,0 +1,10 @@
+//Finding cube of a number using C
+#include<stdio.h>
+void main()
+{
+  int a,cube;
+  printf("Enter the number:");
+  scanf("%d",&a);
+  cube=a*a*a;
+  printf("The cube of the number is:%d",cube);
+ }
