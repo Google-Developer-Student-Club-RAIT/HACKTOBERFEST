@@ -1,0 +1,10 @@
+// programmed in c
+#include<stdio.h>
+int main()
+{
+float n,ans;
+printf("Enter a number:");
+scanf("%f",&n);
+ans=n*n*n;
+printf("\nCube of the given number is:%f.4",ans);
+}
