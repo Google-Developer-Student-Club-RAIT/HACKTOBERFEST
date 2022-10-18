@@ -1,0 +1,13 @@
+//area of square in C
+
+#include<stdio.h>
+int main()
+{
+  float a, area;
+  printf("Enter the side of your square \n");
+  scanf("%f",&a);
+  area = a*a;
+  printf("Area of the given square is = %f",area);
+  return 0;
+}
+  
