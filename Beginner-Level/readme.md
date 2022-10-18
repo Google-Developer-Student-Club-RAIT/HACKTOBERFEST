@@ -11,7 +11,7 @@ This repository is open to all members of the GitHub community. Any member may c
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/hacktoberfest.git
+https://github.com/<Your username>/HACKTOBERFEST.git
 ```
 
 * Create a branch
