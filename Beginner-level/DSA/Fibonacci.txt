@@ -7,4 +7,21 @@ n=8
 0 1 1 2 3 5 8 13
 
 // Enter your code here.
-
+// Programmed in c
+#include<stdio.h>
+int main()
+{
+int a=0,b=1,c,n,temp;
+printf("Enter number of digits desired in series:\n");
+scanf("%d",&n);
+printf("Fibonacci Series:0,1,");
+temp=n;
+for(n=1;n<=temp;n++)
+{
+c=a+b;
+b=c;
+a=b;
+printf("%d,",c);
+}
+printf("...");
+}
