@@ -1,1 +1,6 @@
 Factorial of number using recursion
+#Python
+import numpy
+n=5
+num=numpy.prod([i for i in range(1,n+1)])
+print(num)
