@@ -8,4 +8,32 @@ Output: 162
 
 
 // Enter your code here.
+// Program in c
+#include<stdio.h>
+int main()
+{
+int a,r,n,temp,ans,m;
+printf("Enter a:");
+scanf("%d",&a);
+printf("\nEnter r:");
+scanf("%d",&r);
+m=r;
+printf("\nEnter n:");
+scanf("%d",&n);
+temp=n;
+printf("\nThe Geometric Progression:");
+for(n=1;n<=temp;n++)
+{
+if(n==1)
+{
+ans=a;
+}
+else
+{
+ans=a*r;
+r=r*m;
+}
+}
+printf("%d",ans);
+}
 
