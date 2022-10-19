@@ -6,7 +6,7 @@ int n,temp,a=1;
 printf("Enter number of digits desired:");
 scanf("%d",&n);
 temp=n;
-printf("Odd Numbers:");
+printf("\nOdd Numbers:");
 for(n=1;n<=temp;n++)
 {
 printf("%d,",a);
