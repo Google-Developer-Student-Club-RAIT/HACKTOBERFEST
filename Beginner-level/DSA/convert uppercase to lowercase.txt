@@ -1,0 +1,5 @@
+## Convert Uppercase to Lowercase (Python Code)
+
+x = input("Enter your Text:- ")
+print(x.lower())
+
