@@ -10,3 +10,20 @@ void main()
   else
   printf("THE NUMBER %d IS NOT EVEN",a);
  }
+
+
+//code to check even or not using CPP
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int number;
+    cin>>number;
+    if(number&1)
+    cout<<"odd";
+    else
+    cout<<"even";
+    return 0;
+}
