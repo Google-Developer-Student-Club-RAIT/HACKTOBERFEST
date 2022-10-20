@@ -10,3 +10,15 @@ void main()
   else
   printf("THE NUMBER %d IS NOT EVEN",a);
  }
+
+
+## Program to check whether given number is even or not (Python Code)
+
+number = int(input("Enter an integer number :- "))
+remainder = number % 2
+if (remainder == 0):
+    print(number,"is an even number")
+else:
+    print(number,"is not an even number")
+    
+    
