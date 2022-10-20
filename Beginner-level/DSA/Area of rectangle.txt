@@ -11,3 +11,11 @@ int main()
   return 0;
 }
   
+## Area of Rectangle (Python Code) ##
+
+breath = float(input("Enter the breath of the rectangle :- "))
+length = float(input("Enter the length of the rectangle :- "))
+
+area = breath*length
+
+print("The area of the rectangle","is",area);
