@@ -1,0 +1,21 @@
+//writing the program to count the number of spaces using CPP
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    string sentence;
+    cout<<"Enter the sentence: ";
+    getline(cin,sentence);
+    int n=sentence.size();
+    int count=0;
+    for (int i = 0; i < n; i++)
+    {
+        char ch=sentence[i];
+        if(ch==' ')
+        count++;
+    }
+    cout<<"The number of spaces in the sentence is: "<<count;
+    return 0;
+}
