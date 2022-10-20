@@ -1,3 +1,63 @@
 3 * 3 matrix multiplication 
 
 //write your code here
+//3*3 matrix multiplication CPP Programing
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int matrix1[3][3];
+    int matrix2[3][3];
+    int finalMatrix[3][3];
+
+    //taking the elements of first matrix from user
+    cout<<"Enter the elements in first matrix row-wise: ";
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cin>>matrix1[i][j];
+        }
+        
+    }
+
+    //taking the elements of second matrix from user
+    cout<<"Enter the elements in second matrix row-wise: ";
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cin>>matrix2[i][j];
+        }
+        
+    }
+    
+    //multiplication of matrix and storing it into final matrix
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            int sum=0;
+            for (int k = 0; k < 3; k++)
+            {
+                sum+=matrix1[i][k]*matrix2[k][j];
+            }
+            finalMatrix[i][j]=sum;
+        }
+    }
+    
+    //printing the final matrix
+    cout<<"The final matrix is:"<<endl;
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout<<finalMatrix[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+    
+    return 0;
+}
