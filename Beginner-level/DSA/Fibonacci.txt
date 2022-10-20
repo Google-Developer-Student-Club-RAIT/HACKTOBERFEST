@@ -7,4 +7,25 @@ n=8
 0 1 1 2 3 5 8 13
 
 // Enter your code here.
+//code for Fibonacci Series in CPP
+#include<iostream>
+using namespace std;
 
+int main()
+{
+    int n;
+    cout<<"Enter the term till where you want Fibonacci Series:";
+    cin>>n;
+    cout<<0<<" "<<1<<" ";
+    int a=0;   //first term 
+    int b=1;    //second term
+    for (int i = 2; i < n; i++)
+    {
+        int c=a+b;
+        cout<<c<<" ";
+        a=b;
+        b=c;
+    }
+    
+    return 0;
+}
