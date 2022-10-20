@@ -24,3 +24,12 @@ int main()
     cout<<"Area of square:"<<area;
     return 0;
 }
+
+
+
+## Area of a Square (Python Code)
+
+s=float(input("Enter the Value of Side:- "))
+side=s*s
+print("Area of square is:- ",side)
+
