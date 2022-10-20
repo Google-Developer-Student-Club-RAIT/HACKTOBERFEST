@@ -9,3 +9,21 @@ Output: 162
 
 // Enter your code here.
 
+// GP program using C
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int A, R, N, gp;
+  printf("Enter the first term of your Geometric Progression \n");
+  scanf("%d",&A);
+  printf("Enter the Geometric difference \n");
+  scanf("%d",&R);
+  printf("Enter your 'n' \n");
+  scanf("%d",&N);
+  gp = A*(pow(R,N));
+  printf("Your GP is %d",gp);
+  return 0;
+}
+  
