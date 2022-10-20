@@ -1,13 +1,26 @@
-#include<stdio.h>
+/**
+ * C program to find area of rectangle
+ */
+
+#include <stdio.h>
+
 int main()
 {
-  int l, b, area;
-  printf("Enter lenght of your rectangle \n");
-  scanf("%d",&l);
-  printf("Enter breadth of your rectangle \n");
-  scanf("%d",&b);
-  area = l*b;
-  printf("Area of the given rectangle is = %d",area);
-  return 0;
+    float length, width, area;
+
+    /*
+     * Input length and width of rectangle
+     */
+    printf("Enter length of rectangle: ");
+    scanf("%f", &length);
+    printf("Enter width of rectangle: ");
+    scanf("%d", &width);
+
+    /* Calculate area of rectangle */
+    area = length * width;
+
+    /* Print area of rectangle */
+    printf("Area of rectangle = %f sq. units ", area);
+
+    return 0;
 }
-  
