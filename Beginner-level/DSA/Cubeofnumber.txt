@@ -8,3 +8,22 @@ void main()
   cube=a*a*a;
   printf("The cube of the number is:%d",cube);
  }
+
+
+//code to find the cube of a number in CPP 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //taking a number from the user
+    float number;
+    cout<<"Enter a number:";
+    cin>>number;
+
+    //formula of cube of a number=(number)^3
+    float cube=number*number*number;
+    cout<<"Cube of "<<number<<" is: "<<cube;
+    return 0;
+}
