@@ -1,0 +1,13 @@
+## Check Whether given number is prime or not (Python Code)
+
+num = int(input("Enter your Number:- "))
+flag = 0
+for i in range(2,num):
+    if(num % i == 0):
+        flag = 1 
+        break 
+if (flag == 0):
+    print(num,"is prime number")
+else:
+    print(num,"is not prime number")
+    
