@@ -33,3 +33,33 @@ int main() {
         printf("%d is not an Armstrong number.", n);
 
     return 0;
+
+
+//code to check armstrong using CPP
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int number;
+    cout<<"Enter a 3 digit number:";
+    cin>>number;
+    //creating a copy of number
+    int numberCopy=number;    
+    int lastDigit;
+    int sum=0;
+    for (int i = 0; i < 3; i++)
+    {
+        lastDigit=number%10;    
+        sum+=lastDigit*lastDigit*lastDigit;
+        number=number/10;
+    }
+    if(sum==numberCopy)
+    cout<<numberCopy<<" is an armstrong number";
+    
+    else
+    cout<<numberCopy<<" is not an armstrong number";
+    
+    return 0;
+}
