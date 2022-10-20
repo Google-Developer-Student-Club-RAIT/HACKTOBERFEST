@@ -11,3 +11,29 @@ n=5
 1 2 3 4 5 4 3 2 1
 
 // Enter your code here.
+// Program in c
+#include<stdio.h>
+int main()
+{
+int n,r,space,i,j;
+printf("Enter n:");
+scanf("%d",&n);
+space=n-1;
+printf("\nFor n=%d The pattern will be: \n",n);
+for(i=1;i<=n;i++)
+{
+        for(space=1;space<=n-i;space++)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",j);
+        }
+        for(r=j-2;r>=1;r--)
+        {
+            printf("%d",r);
+        }
+printf("\n");        
+}        
+}
