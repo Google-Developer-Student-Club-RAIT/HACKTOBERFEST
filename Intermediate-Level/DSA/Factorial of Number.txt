@@ -4,3 +4,21 @@ import numpy
 n=5
 num=numpy.prod([i for i in range(1,n+1)])
 print(num)
+
+// Code for finding factorial in CPP
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter the number of which you want to find factorial:";
+    cin>>n;
+    int factorial=1;
+    for (int i = 1; i<=n; i++)
+    {
+        factorial=factorial*i;
+    }
+    cout<<"Factorial of "<<n<<" is "<<factorial;
+    return 0;
+}
