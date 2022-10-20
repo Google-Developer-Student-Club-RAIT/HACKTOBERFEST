@@ -1,0 +1,14 @@
+// Convert Lower Case to Upper Case Program in Java by Parth Todankar
+import java.util.*;
+public class Convert_Case
+{
+    public static void main (String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String str="",str2="";
+        System.out.println("Enter String in Lower Case :");
+        str = sc.nextLine();
+        str2 = str.toUpperCase();
+        System.out.println(str2);
+    }
+}
