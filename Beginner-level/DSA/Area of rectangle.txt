@@ -34,3 +34,19 @@ Area = input1 * input 2
 print("Area of triangle is equal to",Area)
 
 
+//AREA OF RECTANGLE USING CPP PROGRAMMING
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float length,breadth,area;
+    cout<<"Enter length:";
+    cin>>length;
+    cout<<"Enter breadth:";
+    cin>>breadth;
+    area=length*breadth;
+    cout<<"Area of rectangle:"<<area;
+    return 0;
+}
