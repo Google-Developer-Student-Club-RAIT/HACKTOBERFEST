@@ -1,3 +1,4 @@
+/* 
 #include<stdio.h>
 int main()
 {
@@ -10,4 +11,26 @@ int main()
   printf("Area of the given rectangle is = %d",area);
   return 0;
 }
+
   
+## Area of Rectangle (Python Code) ##
+
+breath = float(input("Enter the breath of the rectangle :- "))
+length = float(input("Enter the length of the rectangle :- "))
+
+area = breath*length
+
+print("The area of the rectangle","is",area);
+
+
+
+*/
+#programming language is python
+print("Enter Lenth Here")
+input1 = int(input())
+print("Enter Breadth Here")
+input2 = int(input())
+Area = input1 * input 2 
+print("Area of triangle is equal to",Area)
+
+

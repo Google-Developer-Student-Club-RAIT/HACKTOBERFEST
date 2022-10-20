@@ -10,4 +10,17 @@ int main()
   return 0;
 }
   
-  
+//AREA OF SQUARE USING CPP PROGRAMMING
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float side,area;
+    cout<<"Enter length of side:";
+    cin>>side;
+    area=side*side;
+    cout<<"Area of square:"<<area;
+    return 0;
+}

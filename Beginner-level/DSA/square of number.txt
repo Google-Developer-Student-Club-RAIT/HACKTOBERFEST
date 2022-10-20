@@ -1,0 +1,5 @@
+# Square of a Number (Python Code)
+
+num = int(input("Enter your Number:- "))
+square = num*num
+print("Square of ",num,"is",square)
