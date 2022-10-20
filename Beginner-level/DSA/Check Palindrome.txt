@@ -13,3 +13,31 @@ Input: 8628
 Output: False
 
 // Enter your code here.
+
+//Program to check palindrome in CPP
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string number;
+    cout << "Enter the number:";
+    cin >> number;
+    int n = number.size();
+    int s = 0;
+    int e = n - 1;
+    bool palindrome = true;
+    while (s <= e)
+    {
+        if (number[s] != number[e])
+            palindrome = false;
+        s++;
+        e--;
+    }
+    if (palindrome)
+        cout << number << " is a palindrome";
+    else
+        cout << number << " is not a palindrome";
+    return 0;
+}
