@@ -20,3 +20,26 @@ if n in L:
     print("Vowel")
 else:
     print("Consonant")
+
+
+// Check vowel or consonant using Java by Parth Todankar
+
+import java.util.*;
+public class Vowel
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        char chr;
+        System.out.println("Enter your Character :");
+        chr=sc.next().charAt(0);
+        if(chr=='a'||chr=='e'||chr=='i'||chr=='o'||chr=='u')
+        {
+            System.out.println("The Character is a Vowel");
+        }
+        else
+        {
+            System.out.println("The Character is Not a Vowel");
+        }
+    }
+}
