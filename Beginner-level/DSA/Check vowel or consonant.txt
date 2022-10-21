@@ -10,3 +10,13 @@ void main()
   printf("THE CHARACTER %c IS A CONSONANT",n);
 }
   
+
+
+##vowel or consonant using Python
+L=["A","a","E","e","i","I","O","o","U","u"]
+n=input("Enter an alphabet: ")
+
+if n in L:
+    print("Vowel")
+else:
+    print("Consonant")
