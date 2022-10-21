@@ -9,6 +9,24 @@ int gcd(int A, int B)
 } 
 
 // Enter your code here.
+// Program in c
+
+#include <stdio.h>
+
+int main() {
+    int a,b,i,c;
+    printf("Enter the smaller number:");
+    scanf("%d",&a);
+    printf("\nEnter the bigger number:");
+    scanf("%d",&b);
+    for(i=1;i<=a;i++){
+        if((a%i==0)&&(b%i==0)){
+            c = i;
+        }
+    }
+    printf("\nThe GCD is %d", c);
+    return 0;
+}
 
 //Program to find GCD
 
