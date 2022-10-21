@@ -1,3 +1,30 @@
+
+//Program to print even numbers in CPP
+
+#include<iostream>
+using namespace std;
+void printEven(int n,int number){
+    //base class
+    if(number>n)
+    return ;
+
+    //recursive step
+    cout<<number<<" ";
+    return printEven(n,number+2);
+}
+int main(){
+    int n;
+    int number=0;
+    cout<<"Enter the number till where you want to print even number:";
+    cin>>n;
+    printEven(n,number);
+    return 0;
+}
+
+
+
+
+
 //Even numbers in C
 
 #include<stdio.h>
@@ -12,6 +39,7 @@ int main()
         }
         a++;
     }
+
     return 0;
 }
 
