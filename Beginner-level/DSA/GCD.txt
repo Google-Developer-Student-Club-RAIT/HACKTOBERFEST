@@ -10,3 +10,15 @@ int gcd(int A, int B)
 
 // Enter your code here.
 
+
+## Program for GCD (Python Code)
+
+def gcd(a,b):
+    if a==0:
+        return b
+    return gcd(b%a,a)
+a = int(input("Enter The value A:- "))
+b = int(input("Enter The value B:- "))
+print("GCD =",gcd(a,b))
+
+
