@@ -61,3 +61,74 @@ int main()
     
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 3 * 3 matrix using python
+
+print("Please enter input for the first matrix")##First matrix
+L1=[]
+
+for x in range (3):
+    p=[]
+    for y in range (3):
+        inp=int(input("Enter the Elements: "))
+        p.append(inp)
+    L1.append(p)
+
+
+
+print("PLease enter input for the second matrix")##Second Matrix
+L2=[]
+
+for x in range (3):
+    q=[]
+    for y in range (3):
+        inp2=int(input("Enter the Elements: "))
+        q.append(inp2)
+    L2.append(q)
+        
+
+
+
+print("Your First Matrix is: ")##Print first matrix
+for x in range (3):
+    for y in range(3):
+        print(L1[x][y],end=" ")
+    print()
+
+
+print("Your Second Matrix is: ")##Print second matrix
+for x in range (3):
+    for y in range(3):
+        print(L2[x][y],end=" ")
+    print()
+
+
+
+####Multiplication
+final=[[0,0,0],[0,0,0],[0,0,0]]
+for x in range (3):
+    for y in range(3):
+        for z in range(3):
+            final[x][y]=final[x][y]+ (L1[x][z]*L2[z][y])
+
+
+print("The Multiplication is: ")
+for x in range (3):
+    for y in range (3):
+        print(final[x][y],end=" ")
+    print()
+
+
