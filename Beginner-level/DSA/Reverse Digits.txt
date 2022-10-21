@@ -10,4 +10,15 @@ long long int reverse_digit(long long int n)
 }
 // Enter your code here.
 
+# Program for reverse number (Python Code)
+
+number_string = input("Enter your Number:- ")
+number_string_reversed = number_string[::-1]
+
+print(number_string_reversed)
+        
+
+
+
+
 
