@@ -19,3 +19,18 @@ int main ()
 print("Enter Your Name:")
 Name = str(input()) 
 print("your name is",Name)
+
+
+// Print your name using Java by Parth Todankar
+
+import java.util.*;
+public class name
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Your Name :");
+        String str=sc.nextLine();
+        System.out.println("your Name is :"+str);
+    }
+}
