@@ -1,0 +1,7 @@
+# Print Random Number (Python Code)
+
+import random 
+num = random.randint(1,100)
+print(num)
+
+
