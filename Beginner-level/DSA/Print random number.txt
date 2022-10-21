@@ -4,4 +4,11 @@ import random
 num = random.randint(1,100)
 print(num)
 
-
+// Print random number using Java by Parth Todankar
+public class Random
+{
+    public static void main(String args[])
+    {
+        System.out.println("Random Number is "+Math.random());
+    }
+}
