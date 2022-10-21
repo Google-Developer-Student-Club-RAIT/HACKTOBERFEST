@@ -71,3 +71,15 @@ public class Palindrome_Number
 }  
 
 // Last edited by Parth Todankar
+
+
+## Check Palindrome (Python Code)
+
+number = input("Enter the value:- ")
+reverse = number[::-1]
+
+if( number == reverse ):
+    print("True")
+else:
+    print("False")
+    
