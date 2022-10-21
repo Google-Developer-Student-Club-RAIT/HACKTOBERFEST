@@ -81,3 +81,53 @@ void main()
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+##Stack operations using python
+
+def display(N):
+    if N==[]:
+        print("Empty Stack")
+    else:
+        print("Your Stack after operation:",N)
+def push(N):
+    inp=int(input("Enter the element you want to push: "))
+    N.append(inp)
+    display(N)
+def pop(N):
+    if N==[]:
+        print("Underflow")
+    else:
+        N.pop()
+        display(N)
+
+
+
+N=[]
+n=int(input("Enter The number of elements in your Stack: "))
+for x in range (n):
+    p=int(input("Enter the element: "))
+    N.append(p)
+print("Your Stack created =",N)
+
+print("####OPERATIONS####")
+choice=int(input("Press 1 to PUSH & DISPLAY or Press 2 to POP & DISPLAY: "))
+
+if choice==1:
+    push(N)
+elif choice==2:
+    pop(N)
+else:
+    print("Invalid input")
+    
+
+
