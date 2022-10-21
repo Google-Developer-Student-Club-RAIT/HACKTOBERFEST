@@ -23,3 +23,20 @@ public class Square
 // Last edited by Parth Todankar
 
 
+//code to find the square of a number in CPP 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //taking a number from the user
+    float number;
+    cout<<"Enter a number:";
+    cin>>number;
+
+    //formula of square of a number=(number)^2
+    float square=number*number;
+    cout<<"square of "<<number<<" is: "<<square;
+    return 0;
+}
