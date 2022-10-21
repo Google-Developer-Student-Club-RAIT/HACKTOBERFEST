@@ -12,3 +12,10 @@ int main ()
     return 0;
     
 }
+
+
+
+## Printing Name using Python
+print("Enter Your Name:")
+Name = str(input()) 
+print("your name is",Name)
