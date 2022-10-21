@@ -1,12 +1,39 @@
-#Print the pattern as shown below:
+*/ Print the pattern as shown below:
 Input: n
 Output: pattern
 
-#Example:
+Example:
 n=5
 * * * * *
 *     *
 *   *
 * *
-*
-// Enter your code here.
+*             /*
+
+// Java Program written by Parth Todankar
+
+import java.util.*;
+public class Pattern
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=1;j<=i;j++)
+            {
+                if(j==1 || j==i || i==n)
+                {
+                    System.out.print("* ");
+                }
+                else
+                {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+}
+
