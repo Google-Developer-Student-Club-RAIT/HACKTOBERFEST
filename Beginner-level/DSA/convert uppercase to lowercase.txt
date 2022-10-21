@@ -12,3 +12,16 @@ public class ToLower_Case
         System.out.println(str2);
     }
 }
+
+
+
+
+##Uppercase to lowercase using python
+
+text=input("Enter your input text: ")
+print("Your Entered Text is: ",text)
+
+print("Converting to Lowercase....")
+
+ans=text.lower()
+print("The converted input is",ans)
