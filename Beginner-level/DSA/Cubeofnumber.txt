@@ -27,3 +27,13 @@ int main()
     cout<<"Cube of "<<number<<" is: "<<cube;
     return 0;
 }
+
+
+
+
+##Cube of a number in python
+n=int(input("Enter a number: "))
+
+ans=n*n*n
+
+print("The cube of the number is:",ans)
