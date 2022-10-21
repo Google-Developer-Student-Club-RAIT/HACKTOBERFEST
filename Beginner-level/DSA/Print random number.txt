@@ -1,0 +1,11 @@
+// Print random number using Java by Parth Todankar
+
+public class Random
+{
+    public static void main(String args[])
+    {
+        System.out.println("Random Number is "+Math.random());
+    }
+}
+
+//Last edited by Parth Todankar
