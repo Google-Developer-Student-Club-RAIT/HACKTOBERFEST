@@ -19,3 +19,21 @@ int main()
     cout<<"The number of spaces in the sentence is: "<<count;
     return 0;
 }
+
+
+
+##counting number of spaces in a sentence using pyhton
+
+text=input("Enter your sentence: ")
+
+count=0
+
+for x in range(0,len(text)):
+    if text[x]==" ":
+        count=count+1
+    else:
+        pass
+
+print("The number of spaces are:",count)
+    
+        
