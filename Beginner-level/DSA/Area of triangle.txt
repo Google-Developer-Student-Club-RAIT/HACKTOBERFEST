@@ -28,3 +28,15 @@ int main()
     cout<<"Area of triangle:"<<area;
     return 0;
 }
+
+
+
+
+##Area of a triangle using python
+
+height=float(input("Enter the height of the triangle: "))
+base=float(input("Enter the base lenght of the triangle: "))
+
+area= 0.5*height*base
+
+print("Area of the traingle is:",area)
