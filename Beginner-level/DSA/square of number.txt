@@ -3,3 +3,23 @@
 num = int(input("Enter your Number:- "))
 square = num*num
 print("Square of ",num,"is",square)
+
+
+// Program for finding the square of 2 numbers using Java by Parth Todankar
+
+import java.util.*;
+public class Square
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Number :");
+        int n=sc.nextInt();
+        int sq=n*n;
+        System.out.println("Square of "+n+" is "+sq);
+    }
+}
+
+// Last edited by Parth Todankar
+
+
