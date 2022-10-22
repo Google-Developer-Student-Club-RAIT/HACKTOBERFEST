@@ -20,3 +20,30 @@ public class BinaryToDecimal
         System.out.println(decimal);  
     }
 }  
+
+
+
+// Program to Convert Binary Number to Decimal Number (C++ Code)
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main ()
+{
+    int num,rem,temp,i=0,des=0;
+    cout<<"Enter Binary Number:- ";
+    cin>>num;
+    temp=num;
+    while(temp>0)
+    {
+        rem=temp%10;
+        des=des+rem*pow(2,i);
+        i++;
+        temp=temp/10;
+        
+    
+    }
+    cout<<"Decimal Number is  "<<des;
+    return 0;
+}
