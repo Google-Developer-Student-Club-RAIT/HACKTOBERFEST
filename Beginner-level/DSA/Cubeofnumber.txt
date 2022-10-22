@@ -37,3 +37,17 @@ n=int(input("Enter a number: "))
 ans=n*n*n
 
 print("The cube of the number is:",ans)
+
+// Cube of number using Java
+import java.util.*;
+public class Cube
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Number :");
+        int s=sc.nextInt();
+        int a=s*s*s;
+        System.out.println("Area = "+a);
+    }
+}
