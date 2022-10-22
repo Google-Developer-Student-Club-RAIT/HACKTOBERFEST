@@ -19,6 +19,28 @@ print(number_string_reversed)
         
 
 
+//Program to reverse digits
 
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+int main()
+{
+    string number;
+    getline(cin,number);
+    int start=0;
+    int end=number.size()-1;
+    while (start<=end)
+    {
+        swap(number[start++],number[end--]);
+    }
+
+    for (int i = 0; i < number.size(); i++)
+    {
+        cout<<number[i];
+    }
+    return 0;
+}
 
 
