@@ -1,0 +1,86 @@
+// Program for Music Store using Java by Parth Todankar
+import java.util.*;
+public class Myuzick_Store
+{
+    public static void main (String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("   ~~  Welcome to Myuzick Store ~~"+'\n');
+        System.out.println("What would you like to purchase today?");
+        System.out.println("1 > Guitar");
+        System.out.println("2 > Ukelele");
+        System.out.println("3 > Piano"+'\n');
+        System.out.println("Enter your desired number :");
+        int n=sc.nextInt();
+        
+        int m;
+        switch(n)
+        {
+            case 1:
+            System.out.println("Which model would you like to have?");
+            System.out.println("1 > Ibanez MD39C ₹7000");
+            System.out.println("2 > Fender FA125 ₹11000");
+            System.out.println("3 > Cort   AD810 ₹9800"+'\n');
+            System.out.println("Enter your desired number :");
+            m=sc.nextInt();
+            if(m==1)
+            {
+                System.out.println("You purchased Ibanez MD39C. Please pay ₹7000");
+            }
+            else if(m==2)
+            {
+                System.out.println("You purchased Fender FA125. Please pay ₹11000");
+            }
+            else if(m==3)
+            {
+                System.out.println("You purchased Cort AD810. Please pay ₹9800");
+            }
+            break;
+            
+            case 2:
+            System.out.println("Which model would you like to have?");
+            System.out.println("1 > Kala   MK-SS ₹3000");
+            System.out.println("2 > Vault  UK    ₹5000");
+            System.out.println("3 > Mohalo MJ2VT ₹6000"+'\n');
+            System.out.println("Enter your desired number :");
+            m=sc.nextInt();
+            if(m==1)
+            {
+                System.out.println("You purchased Kala MK-SS. Please pay ₹3000");
+            }
+            else if(m==2)
+            {
+                System.out.println("You purchased Vault UK. Please pay ₹5000");
+            }
+            else if(m==3)
+            {
+                System.out.println("You purchased Mohalo MJ2VT. Please pay ₹6000");
+            }
+            break;
+            
+            case 3:
+            System.out.println("Which model would you like to have?");
+            System.out.println("1 > Casio  SA78  ₹4700");
+            System.out.println("2 > Yamaha PSR   ₹16000");
+            System.out.println("3 > Korgg  PA300 ₹72000"+'\n');
+            System.out.println("Enter your desired number :");
+            m=sc.nextInt();
+            if(m==1)
+            {
+                System.out.println("You purchased Casio  SA78. Please pay ₹4700");
+            }
+            else if(m==2)
+            {
+                System.out.println("You purchased Yamaha PSR. Please pay ₹16000");
+            }
+            else if(m==3)
+            {
+                System.out.println("You purchased Korgg  PA300. Please pay ₹72000");
+            }
+            break;
+            
+            default:
+            System.out.println("Invalid Entry!!!");
+        }
+    }
+}
