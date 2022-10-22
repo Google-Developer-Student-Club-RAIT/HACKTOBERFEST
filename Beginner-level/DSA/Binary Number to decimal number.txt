@@ -1,17 +1,22 @@
-https://practice.geeksforgeeks.org/problems/binary-number-to-decimal-number3525/1#:~:text=Your%20task%20is%20to%20complete,of%20bits%20in%20binary%20number.
+//Binary to Decimal Number using Java by Parth Todankar
 
-Refer to the question given above.
+*/ Example 1 -
+Input  : 10001000
+Output : 136
 
+Example 2 -
+Input  :  101100
+Output :  44 /*
 
-
-#Function:
-int binary_to_decimal(char str[])
-{
-    //code here
-}
-
-Contribution by :-
-
-
-// Enter your code here.
-
+import java.util.*;
+public class BinaryToDecimal
+{  
+    public static void main(String args[])
+    {  
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Binary String :");
+        String binaryString=sc.nextLine();  
+        int decimal=Integer.parseInt(binaryString,2);  
+        System.out.println(decimal);  
+    }
+}  
