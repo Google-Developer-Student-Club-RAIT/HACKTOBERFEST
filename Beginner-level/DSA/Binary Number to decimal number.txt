@@ -20,3 +20,16 @@ public class BinaryToDecimal
         System.out.println(decimal);  
     }
 }  
+
+
+# Program for binary number to decimal numbers (Python Code)
+
+n = input("Enter Binary Number:- ")
+l=list(n)
+sum=0
+l.reverse()
+
+for i in range(len(l)):
+    sum=sum+int(l[i])*2**i
+print("The Decimal Number is ",sum)
+
