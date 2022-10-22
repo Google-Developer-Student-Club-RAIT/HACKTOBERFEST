@@ -40,3 +40,21 @@ base=float(input("Enter the base lenght of the triangle: "))
 area= 0.5*height*base
 
 print("Area of the traingle is:",area)
+
+
+// Area of Triangle using Java by Parth Todankar
+
+import java.util.*;
+public class AreaofTriangle
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Height :");
+        int h=sc.nextInt();
+        System.out.println("Enter Base Length :");
+        int b=sc.nextInt();
+        double a=0.5*h*b;
+        System.out.println("Area = "+a);
+    }
+}
