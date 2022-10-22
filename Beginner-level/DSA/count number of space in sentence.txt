@@ -35,5 +35,29 @@ for x in range(0,len(text)):
         pass
 
 print("The number of spaces are:",count)
-    
+
+
+// Program to count the number of spaces in a sentence using Java by Parth Todankar
+import java.util.*;
+public class Count_Space
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a String :");
+        String str = sc.nextLine();
+        System.out.println("The String is : "+str);
+        int l=str.length();
+        int spc=0;
+        for (int a=0;a<l;a++)
+        {
+            char chr=str.charAt(a);
+            if(chr==' ')
+            {
+                spc=spc+1;
+            }
+        }
+        System.out.println("Number of Spaces = "+spc);
+    }
+}
         
