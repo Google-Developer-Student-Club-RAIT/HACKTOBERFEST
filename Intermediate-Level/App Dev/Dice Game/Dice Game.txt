@@ -1,0 +1,27 @@
+// Dice Game using Java by Parth Todankar
+
+import java.util.*;
+public class Dice_Game
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        
+        System.out.println("Enter the number of dice :");  // Input the number of dice required.
+        int n=sc.nextInt();
+        
+        Random r=new Random();  
+        
+        int total=0;
+        int randomNumber=0;
+        System.out.println("You rolled :");  //  <-- Output
+        for(int i=0;i<n;i++)
+        {
+            randomNumber=r.nextInt(6) + 1;  // Generates a random number between 1 to 6.
+            total = total + randomNumber;  // Calculates total of all the random numbers.
+            System.out.print(randomNumber+ " ");  // Prints the random numbers.
+        }
+        
+        System.out.println('\n'+"Total ="+total);  // Prints the total of all the random numbers.
+    }
+}
