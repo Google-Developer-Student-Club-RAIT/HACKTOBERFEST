@@ -1,0 +1,16 @@
+// Unit Converter using Java by Parth Todankar
+import java.util.*;
+public class Unit_Converter
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the value (in mm) :");  // Input
+        double m=sc.nextDouble();
+        System.out.println("~~ Unit Converter ~~");  // Output
+        System.out.println("Millimeter  : "+m+"mm");
+        System.out.println("Centimeter  : "+m/10+"cm");
+        System.out.println("Meter       : "+m/1000+"m");
+        System.out.println("Kilometer   : "+m/1000000+"km");
+    }
+}
