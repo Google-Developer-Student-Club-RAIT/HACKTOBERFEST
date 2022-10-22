@@ -1,27 +1,32 @@
-// Convert Lower Case to Upper Case Program in Java by Parth Todankar
-import java.util.*;
-public class Convert_Case
+/** 
+ * C program to convert string to uppercase by flamki
+ */
+
+#include <stdio.h>
+#define MAX_SIZE 100 // Maximum string size
+
+
+int main()
 {
-    public static void main (String args[])
+    char str[MAX_SIZE];
+    int i;
+
+    /* Input string from user */
+    printf("Enter your text : ");
+    gets(str);
+
+    for(i=0; str[i]!='\0'; i++)
     {
-        Scanner sc=new Scanner(System.in);
-        String str="",str2="";
-        System.out.println("Enter String in Lower Case :");
-        str = sc.nextLine();
-        str2 = str.toUpperCase();
-        System.out.println(str2);
+        /*
+         * If current character is lowercase alphabet then
+         * convert it to uppercase.
+         */
+        if(str[i]>='a' && str[i]<='z')
+        {
+            str[i] = str[i] - 32;
+        }
     }
+
+    printf("Uppercase string : %s",str);
+    return 0;
 }
-
-
-
-##lowercase to uppercase using python
-
-text=input("Enter your input: ")
-print("Your entered text is",text)
-
-print("Converting to uppercase....")
-
-ans=text.upper()
-
-print("The converted input is",ans)
