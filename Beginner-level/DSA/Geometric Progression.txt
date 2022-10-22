@@ -27,3 +27,20 @@ int main()
   return 0;
 }
   
+
+
+// Program to find nth term of geometric progression in CPP
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float firstTerm, commonRatio, noOfTerms, nthTerm;
+    cout << "Enter first term, common ratio and number of terms respectively: ";
+    cin >> firstTerm >> commonRatio >> noOfTerms;
+    nthTerm = firstTerm*pow(commonRatio,noOfTerms-1);
+    cout << "The nth term of geometric progression is: " << nthTerm;
+    return 0;
+}
