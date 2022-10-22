@@ -7,3 +7,18 @@ Input: A=2, D=4, N=5
 Output: 0.055 (Approx)
 
 // Enter your code here.
+
+// Program to find nth term of harmonic progression in CPP
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float firstTerm, commonDifference, noOfTerms, nthTerm;
+    cout << "Enter first term, common difference and number of terms respectively: ";
+    cin >> firstTerm >> commonDifference >> noOfTerms;
+    nthTerm = 1 / (firstTerm + (noOfTerms - 1) * commonDifference);
+    cout << "The nth term of harmonic progression is: " << nthTerm;
+    return 0;
+}
