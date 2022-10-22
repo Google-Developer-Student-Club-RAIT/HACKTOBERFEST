@@ -1,54 +1,12 @@
-
-//Program to print even numbers in CPP
-
-#include<iostream>
-using namespace std;
-void printEven(int n,int number){
-    //base class
-    if(number>n)
-    return ;
-
-    //recursive step
-    cout<<number<<" ";
-    return printEven(n,number+2);
-}
-int main(){
-    int n;
-    int number=0;
-    cout<<"Enter the number till where you want to print even number:";
-    cin>>n;
-    printEven(n,number);
-    return 0;
-}
-
-
-
-
-
-//Even numbers in C
-
-#include<stdio.h>
-int main()
-{
-    int a = 1;
-    while(1)
-    {
-        if(a%2==0)
-        {
-            printf("%d \n",a);
-        }
-        a++;
-    }
-
-    return 0;
-}
-
-
-## Print even numbers (Python Code)
-
-start = int(input("Enter the start of range:-  "))
-end = int(input("Enter the end of range:-  "))
-
-for num in range(start,end+1):
+#PRINT EVEN NUMBER USING PYTHON BY FLAMKI
+# Python program to print Even Numbers in a List
+ 
+# list of numbers
+list1 = [10, 21, 4, 45, 66, 93]
+ 
+# iterating each number in list
+for num in list1:
+ 
+    # checking condition
     if num % 2 == 0:
-        print(num,end=" ")
+        print(num, end=" ")
