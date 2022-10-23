@@ -10,3 +10,22 @@ for num in list1:
     # checking condition
     if num % 2 == 0:
         print(num, end=" ")
+
+import java.util.*;
+public class Even
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Number :");
+        int n=sc.nextInt();
+        if(n%2==0)
+        {
+            System.out.println("The number is even.");
+        }
+        else
+        {
+            System.out.println("The number is odd.");
+        }
+    }
+}
