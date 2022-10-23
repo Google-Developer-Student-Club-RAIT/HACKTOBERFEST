@@ -34,3 +34,14 @@ public class name
         System.out.println("your Name is :"+str);
     }
 }
+
+
+//Printing Name in C by AARYA
+#include<stdio.h>
+int main()
+{   
+    char str[50];
+    scanf("%s",str);
+    printf("Your Name Is %s",str);
+    return 0;
+}
