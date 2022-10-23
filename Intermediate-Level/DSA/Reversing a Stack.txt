@@ -1,1 +1,24 @@
 Reversing a Stack with the help of another empty Stack
+
+##reversing a stack with the help of another empty stack using python
+
+L=[]
+M=[] ##The Empty stack in which the reversed elements will be stored 
+
+n=int(input("Enter the number of elements you want in your stack: "))##creating the stack L
+for x in range (0,n):
+    p=int(input("Enter the element: "))
+    L.append(p)
+print("The stack you created is:")
+print(L)
+print()
+
+print("Reversing the stack by storing it into another......")
+print()
+
+K=L[::-1]
+
+for x in range(0,len(K)):
+    M.append(K[x])
+print("The reversed stack is:")
+print(M)
