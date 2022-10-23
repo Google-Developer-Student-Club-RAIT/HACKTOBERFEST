@@ -8,3 +8,18 @@ for num in range(start, end + 1):
     # checking condition
     if num % 2 != 0:
         print(num, end = " ")
+
+import java.util.*;
+public class Odd
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Max Number :");
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i=i+2)
+        {
+            System.out.println(" "+i);
+        }
+    }
+}
