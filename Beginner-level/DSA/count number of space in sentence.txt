@@ -60,4 +60,27 @@ public class Count_Space
         System.out.println("Number of Spaces = "+spc);
     }
 }
+
+
+//Program To Count Blank Spaces in C by Sooryaraj
+#include<stdio.h>
+int main()
+{
+  char a[60]; 
+  int i=0,count=0;
+  printf("Type the Sentence\n");
+  gets(a);
+  puts(a);
+  while(a[i]!='\0')
+  {
+     if(a[i]==' ')
+     { 
+       count++;
+     }
+     i++;  
+  }
+  printf("Number of blank spaces is %d",count);
+}
+
+
         
