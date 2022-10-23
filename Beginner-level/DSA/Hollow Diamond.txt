@@ -67,3 +67,74 @@ int main()
     }
     return 0;
 }
+
+// Hollow Diamond using Java
+public class HollowDiamond
+{
+public static void printPattern(int n)
+{
+    int i,j,mid;
+    if(n%2==1)
+      n++;
+    mid = n/2;
+    
+    for(i = 1; i<= mid; i++) 
+    {
+      for(j = 1; j<=mid-i; j++) 
+         System.out.print(" ");
+           
+      if(i == 1) 
+      {
+         System.out.print("*");
+      }
+      else
+      {
+         System.out.print("*"); 
+         for(j = 1; j<=2*i-3; j++) 
+         { 
+            System.out.print(" ");
+         }
+         System.out.print("*");
+      }
+      for(j = 1; j<=mid-i; j++) 
+      {
+          
+         System.out.print(" ");
+      }     
+      System.out.println();
+    }
+     
+   
+    for(i = mid+1; i<n; i++) 
+    {
+         
+      for(j = 1; j<=i-mid; j++) 
+      {
+         System.out.print(" ");
+      }
+           
+      if(i == n-1) {
+         System.out.print("*");
+      }else{
+         System.out.print("*"); 
+         for(j = 1; j<=2*(n - i)-3; j++) 
+         { 
+            System.out.print(" ");
+         }
+         System.out.print("*");
+      }
+      for(j = 1; j<=i-mid; j++) 
+      {
+         System.out.print(" ");
+      }
+           
+      System.out.println();
+   }  
+}
+    public static void main(String args[])
+    {
+        int n = 7;
+        printPattern(n);
+    }
+}
+ 
