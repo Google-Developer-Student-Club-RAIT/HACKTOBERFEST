@@ -1,46 +1,33 @@
-https://practice.geeksforgeeks.org/problems/reverse-digit0316/1
-
-Refer to the question given above.
-
-#Function:
-
-long long int reverse_digit(long long int n)
-{
-    // Code here
-}
-// Enter your code here.
-
-# Program for reverse number (Python Code)
-
-number_string = input("Enter your Number:- ")
-number_string_reversed = number_string[::-1]
-
-print(number_string_reversed)
-        
-
-
-//Program to reverse digits
-
-#include<iostream>
-#include<algorithm>
-using namespace std;
-
-int main()
-{
-    string number;
-    getline(cin,number);
-    int start=0;
-    int end=number.size()-1;
-    while (start<=end)
-    {
-        swap(number[start++],number[end--]);
+// Java program to reverse a number recursively BY FLAMKI
+ 
+import java.io.*;
+ 
+class GFG {
+      
+    // stores reversed number
+    static int rev = 0;
+   
+    // Function to reverse the number
+    static void reverse(int n){
+       
+      if(n<=0)
+        return ;
+       
+      int rem = n%10;  // remainder
+       
+      rev = (rev*10) + rem;
+       
+      reverse(n/10);
     }
-
-    for (int i = 0; i < number.size(); i++)
-    {
-        cout<<number[i];
+     
+   // Driver Function
+    public static void main (String[] args) {
+       
+        int n = 4526;
+      
+        reverse(n);
+       
+        System.out.print("Reversed Number is "+ rev);
     }
-    return 0;
 }
-
 
