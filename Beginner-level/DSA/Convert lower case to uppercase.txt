@@ -42,3 +42,23 @@ int main() {
   }
   return 0;
 }
+
+
+// Convert lowercase to UPPERCASE using C program
+#include <ctype.h>
+#include <stdio.h>
+ 
+int main()
+{
+    int j = 0;
+    char str[] = "hey i'm aarya\n";
+    char ch;
+ 
+    while (str[j]) {
+        ch = str[j];
+        putchar(toupper(ch));
+        j++;
+    }
+ 
+    return 0;
+}
