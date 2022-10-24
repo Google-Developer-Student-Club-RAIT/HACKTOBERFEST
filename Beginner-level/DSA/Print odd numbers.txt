@@ -8,3 +8,18 @@ for num in range(start, end + 1):
     # checking condition
     if num % 2 != 0:
         print(num, end = " ")
+
+
+
+// print odd numbers in java.
+
+public class OddNumber {
+	public static void main(String args[]) {
+		System.out.println("The Odd Numbers are:");
+		for (int i = 1; i <= 100; i++) {
+			if (i % 2 != 0) {
+				System.out.print(i + " ");
+			}
+		}
+	}
+}
