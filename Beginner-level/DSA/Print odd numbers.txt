@@ -10,7 +10,6 @@ for num in range(start, end + 1):
         print(num, end = " ")
 
 
-
 // print odd numbers in java.
 
 public class OddNumber {
@@ -22,4 +21,17 @@ public class OddNumber {
 			}
 		}
 	}
+import java.util.*;
+public class Odd
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Max Number :");
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i=i+2)
+        {
+            System.out.println(" "+i);
+        }
+    }
 }
