@@ -25,3 +25,15 @@ print("Converting to Lowercase....")
 
 ans=text.lower()
 print("The converted input is",ans)
+
+
+// Uppercase To Lowercase in CPP by Sooryaraj
+#include <iostream>
+#include <cctype>
+using namespace std;
+int main() {
+  char ch = tolower('A');
+  cout << ch;
+  return 0;
+}
+
