@@ -40,3 +40,29 @@ public class Series
         System.out.println("Output :"+sum);
     }
 }
+
+
+//Program to find the nth term of series-1 using CPP
+
+#include<iostream>
+using namespace std;
+void series_1(float a,float b,float n,float ans){
+    //base class
+    if(a==n){
+        cout<<ans;
+        return ;
+    }
+
+    //recursive step
+    ans+=(a+1)/(b+2);
+    series_1(a+1,b+2,n,ans);
+}
+
+int main()
+{
+    float a=0,b=1,ans=0,n;
+    cout<<"Enter the length of the series: ";
+    cin>>n;
+    series_1(a,b,n,ans);
+    return 0;
+}
