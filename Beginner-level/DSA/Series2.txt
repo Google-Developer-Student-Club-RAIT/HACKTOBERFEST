@@ -9,3 +9,35 @@ Output: 15
 
 // Enter your code here.
 
+//Program to find nth term of series-2 using CPP
+
+#include<iostream>
+using namespace std;
+//finding factorial
+int factorial(int n){
+    int factorial=1;
+    for (int i = 1; i<=n; i++)
+    {
+        factorial=factorial*i;
+    }
+    return factorial;
+}
+void series_2(float a,float b,float n,float ans){
+    //base class
+    if(a==n){
+        cout<<ans;
+        return ;
+    }
+
+    //recursive step
+    ans+=factorial(a+1)/factorial(b+1);
+    return series_2(a+1,b+1,n,ans);
+}
+int main()
+{
+    float a=0,b=-1,n,ans=0;
+    cout<<"Enter the length of series: ";
+    cin>>n;
+    series_2(a,b,n,ans);
+    return 0;
+}
