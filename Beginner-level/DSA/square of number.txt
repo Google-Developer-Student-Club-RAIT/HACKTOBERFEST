@@ -1,13 +1,55 @@
-//square of number using swift by flamki
-#func expo(_ base: Int, _ power: Int) -> Int {
-    var result = 1
+# Square of a Number (Python Code)
 
-    while (power != 0){
-        if (power%2 == 1){
-            result *= base
-        }
-        power /= 2
-        base *= base
+num = int(input("Enter your Number:- "))
+square = num*num
+print("Square of ",num,"is",square)
+
+
+// Program for finding the square of 2 numbers using Java by Parth Todankar
+
+import java.util.*;
+public class Square
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Number :");
+        int n=sc.nextInt();
+        int sq=n*n;
+        System.out.println("Square of "+n+" is "+sq);
     }
-    return result
+}
+
+// Last edited by Parth Todankar
+
+
+//code to find the square of a number in CPP 
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    //taking a number from the user
+    float number;
+    cout<<"Enter a number:";
+    cin>>number;
+
+    //formula of square of a number=(number)^2
+    float square=number*number;
+    cout<<"square of "<<number<<" is: "<<square;
+    return 0;
+}
+
+
+//Program To Find Square Of Number in C by Sooryaraj
+#include<stdio.h>
+int main()
+{
+    float number, square;
+    printf("Enter any integer Value : ");
+    scanf("%f", &number);
+    square = number * number;
+    printf("square of %.2f is  =  %.2f", number, square);
+    return 0;
 }
