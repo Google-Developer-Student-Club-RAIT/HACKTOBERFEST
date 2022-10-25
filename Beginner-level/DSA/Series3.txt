@@ -8,3 +8,42 @@ n=5
 Oupput: 32
 
 // Enter your code here.
+
+//Program to find nth term of series-3 using CPP
+
+#include<iostream>
+using namespace std;
+//finding factorial
+int factorial(int n){
+    int factorial=1;
+    for (int i = 1; i<=n; i++)
+    {
+        factorial=factorial*i;
+    }
+    return factorial;
+}
+
+//finding combination
+float combination(int n,int r){
+    int comb=factorial(n)/(factorial(r)*factorial(n-r));
+    return comb;
+}
+void series_3(float a,float n,float ans){
+    //base class
+    if(a==n){
+        cout<<ans;
+        return ;
+    }
+
+    //recursive step
+    ans+=combination(n,a+1);
+    series_3(a+1,n,ans);
+}
+int main()
+{
+    float a=-1,n,ans=0;
+    cout<<"Enter the length of the series: ";
+    cin>>n;
+    series_3(a,n,ans);
+    return 0;
+}
