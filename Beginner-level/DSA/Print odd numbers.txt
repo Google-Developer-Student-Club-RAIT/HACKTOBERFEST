@@ -35,3 +35,27 @@ public class Odd
         }
     }
 }
+
+//Program to print odd numbers in CPP
+
+#include<iostream>
+using namespace std;
+void printOdd(int n,int number){
+    //base class
+    if(number>n)
+    return ;
+
+    //recursive step
+    cout<<number<<" ";
+    return printOdd(n,number+2);
+}
+int main(){
+    int n;
+    int number=1;
+    cout<<"Enter the number till where you want to print odd number:";
+    cin>>n;
+    if(n==0)
+    cout<<"There is no natural odd number before 0";
+    printOdd(n,number);
+    return 0;
+}
