@@ -59,3 +59,18 @@ public class GeometricProgression
         System.out.print("The "+N+"th term of the"+" series is :"+Nth_of_GP(a,r,N));
     }
 }
+
+
+// Geometric Progression using python 
+
+a = int(input("Enter the value of a: "))
+r = int(input("Enter the value of r: "))
+n = int(input("Enter the value of n: "))
+ 
+if(r>1):
+  S_n = (a*(r**n))/(r-1)
+else:
+  S_n = (a*(r**n))/(1-r)
+ 
+print("Sum of n terms: ",S_n)
+
